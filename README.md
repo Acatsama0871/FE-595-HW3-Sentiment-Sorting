@@ -113,7 +113,7 @@ The polarity of the idea is -0.5
 
 
 
-The 10 most common words and corresponding frequency are:
+The 10 most common words and corresponding frequencies are:
 Token            Frequency
 -------------  -----------
 e                       37

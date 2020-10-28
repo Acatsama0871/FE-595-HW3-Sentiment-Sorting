@@ -32,7 +32,7 @@ def main():
     # the token is lemmatized to base form
     the_ten = find_most_common(df, process=True)
     # output result
-    print('The 10 most common words and corresponding frequency are:')
+    print('The 10 most common words and corresponding frequencies are:')
     print(tabulate(the_ten, headers=['Token', 'Frequency']))
 
     return
