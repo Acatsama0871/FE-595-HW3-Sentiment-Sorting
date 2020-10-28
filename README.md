@@ -80,4 +80,52 @@ Simply
 ```
 python main.py
 ```
-or run the script in IDE
+or run the script in IDE.
+
+The output of the program is:
+```
+Head of the merged data:
+                          Name                                            Purpose
+0                  Eaton-Payne  Synergistic homogeneous moratorium for empower...
+1                  Hayes Group  Front-line clear-thinking open architecture fo...
+2  Compton, Zamora and Roberts  Open-source leadingedge solution for whiteboar...
+3    Johnson, Dalton and Wells  Balanced neutral forecast for leverage extensi...
+4                     Ward PLC  Future-proofed neutral approach for unleash se...
+
+
+Tail of the merged data:
+                          Name                                            Purpose
+245   Banks, Sanchez and Smith   Function-based asymmetric installation for st...
+246               Ali and Sons   Focused motivating Local Area Network for inc...
+247                 Cooley Ltd   Profound reciprocal methodology for embrace b...
+248               Kelly-Barnes   Re-engineered static workforce for enable int...
+249                 Graham PLC   Quality-focused attitude-oriented Local Area ...
+
+
+
+
+The best idea is [ Organic static instruction set for redefine distributed web services ]
+The polarity of the idea is 0.5
+
+The worst idea is [ Assimilated didactic parallelism for incubate bricks-and-clicks bandwidth ]
+The polarity of the idea is -0.5
+
+
+
+
+The 10 most common words and corresponding frequency are:
+Token            Frequency
+-------------  -----------
+e                       37
+solution                21
+enable                  17
+orient                  16
+info                    15
+mediaries               15
+system                  15
+contextualize           14
+time                    14
+engineer                14
+
+Process finished with exit code 0
+```
