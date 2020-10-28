@@ -66,7 +66,7 @@ def merge_data(save=False):
 
 
 # find best idea function
-def find_bestIdea(df):
+def find_Ideas(df):
     # initialize
     data_length = df.shape[0]
     highest_polarity = -2 # default value

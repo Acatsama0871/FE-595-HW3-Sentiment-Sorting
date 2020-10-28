@@ -24,6 +24,73 @@ Name: example name2---Purpose: example purpose2
 ```
 The script may not be able to handle the other format in .txt.
 
+### Run the scripts:
+1. Run the **script1_merge_files.py**:
+```
+python script1_merge_files.py
+```
+The output of the first script is:
+```
+Head of the merged data:
+                          Name                                            Purpose
+0                  Eaton-Payne  Synergistic homogeneous moratorium for empower...
+1                  Hayes Group  Front-line clear-thinking open architecture fo...
+2  Compton, Zamora and Roberts  Open-source leadingedge solution for whiteboar...
+3    Johnson, Dalton and Wells  Balanced neutral forecast for leverage extensi...
+4                     Ward PLC  Future-proofed neutral approach for unleash se...
+
+
+Tail of the merged data:
+                          Name                                            Purpose
+245   Banks, Sanchez and Smith   Function-based asymmetric installation for st...
+246               Ali and Sons   Focused motivating Local Area Network for inc...
+247                 Cooley Ltd   Profound reciprocal methodology for embrace b...
+248               Kelly-Barnes   Re-engineered static workforce for enable int...
+249                 Graham PLC   Quality-focused attitude-oriented Local Area ...
+
+Process finished with exit code 0
+```
+and the script will save the merged file to **merged_data.csv** which is necessary for following scripts
+
+2. Run the **script2_find.py**
+```
+python script2_find.py
+```
+The output of the second script is:
+```
+The best idea is [ Organic static instruction set for redefine distributed web services ]
+The polarity of the idea is 0.5
+
+The worst idea is [ Assimilated didactic parallelism for incubate bricks-and-clicks bandwidth ]
+The polarity of the idea is -0.5
+
+Process finished with exit code 0
+```
+
+3. Run the **script3_most_common.py**
+```
+python script3_most_common.py
+```
+The output of the third script is:
+```
+The 10 most common words and corresponding frequencies are:
+Token            Frequency
+-------------  -----------
+e                       37
+solution                21
+enable                  17
+orient                  16
+info                    15
+mediaries               15
+system                  15
+contextualize           14
+time                    14
+engineer                14
+
+Process finished with exit code 0
+```
+
+
 ### Usage of functions:
 The functions are defined in the **HW3_functions.py**. To use a single function:
 ```
@@ -74,58 +141,3 @@ remove the stop words and lemmatize the token to base form.
 
 The function will return the 10 most common tokens and the corresponding
 frequency.
-
-### Run the script:
-Simply
-```
-python main.py
-```
-or run the script in IDE.
-
-The output of the program is:
-```
-Head of the merged data:
-                          Name                                            Purpose
-0                  Eaton-Payne  Synergistic homogeneous moratorium for empower...
-1                  Hayes Group  Front-line clear-thinking open architecture fo...
-2  Compton, Zamora and Roberts  Open-source leadingedge solution for whiteboar...
-3    Johnson, Dalton and Wells  Balanced neutral forecast for leverage extensi...
-4                     Ward PLC  Future-proofed neutral approach for unleash se...
-
-
-Tail of the merged data:
-                          Name                                            Purpose
-245   Banks, Sanchez and Smith   Function-based asymmetric installation for st...
-246               Ali and Sons   Focused motivating Local Area Network for inc...
-247                 Cooley Ltd   Profound reciprocal methodology for embrace b...
-248               Kelly-Barnes   Re-engineered static workforce for enable int...
-249                 Graham PLC   Quality-focused attitude-oriented Local Area ...
-
-
-
-
-The best idea is [ Organic static instruction set for redefine distributed web services ]
-The polarity of the idea is 0.5
-
-The worst idea is [ Assimilated didactic parallelism for incubate bricks-and-clicks bandwidth ]
-The polarity of the idea is -0.5
-
-
-
-
-The 10 most common words and corresponding frequencies are:
-Token            Frequency
--------------  -----------
-e                       37
-solution                21
-enable                  17
-orient                  16
-info                    15
-mediaries               15
-system                  15
-contextualize           14
-time                    14
-engineer                14
-
-Process finished with exit code 0
-```
